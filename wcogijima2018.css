@@ -1795,7 +1795,3 @@ body:not(.twentyseventeen-front-page):not(.page-slug-sponsors) .site-footer .wcb
 }
 
 
-@media screen and (min-width: 48em){
-.page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header, .archive.page-one-column:not(.has-sidebar) .page-header {
-    margin-bottom: 0em;
-}}
