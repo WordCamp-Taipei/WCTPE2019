@@ -2,3 +2,11 @@
     .page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header, .archive.page-one-column:not(.has-sidebar) .page-header {
         margin-bottom: 0em;
     }}
+
+    /*購買大會票眷表格樣式設定*/
+#tix-coupon-link {
+   
+    background: #1FAC43;
+    color: #FCFFFC;
+    
+}
