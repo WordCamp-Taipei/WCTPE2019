@@ -2324,7 +2324,6 @@ html[lang^="zh-"] h2 {
 .entry-content .is-style-default-larger a {
 	font-size: 21px;
 	line-height: 120%;
-/* 	width: 100%; */
 	min-width: 300px;
 	padding: 20px;
 }
