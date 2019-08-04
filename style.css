@@ -2320,14 +2320,20 @@ html[lang^="zh-"] h2 {
 /* Page, block editor - button */
 .entry-content .is-style-default-larger a img {
 	box-shadow: none;
-	margin: 10px auto;
+	margin: 10px auto 0;
 }
 
 .entry-content .is-style-default-larger a {
 	font-size: 18px;
 	line-height: 120%;
-	min-width: 300px;
 	padding: 20px;
+	width: 100%;
+	max-width: 300px;
+	min-height: 160px;
+	display: flex;
+	flex-direction: column;
+	vertical-align: bottom;
+	justify-content: space-between;
 }
 
 /* Page, fact counts blocks */
