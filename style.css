@@ -2005,11 +2005,11 @@ ul.wp-block-latest-posts {
 
 /*網站單獨按鈕樣式*/
 .entry-content .wp-block-button__link:hover {
-	background-color: #7CC16E !important;
+	background-color: #7BC16D !important;
 }
 
 a.wp-block-button__link:active {
-	background-color: #7CC16E;
+	background-color: #7BC16D;
 }
 
 /*最新消息-水平置中*/
@@ -2208,6 +2208,8 @@ h3.wordcamp-block__post-title.wordcamp-sponsors__title {
 .highlight-box {
 	line-height: 110%;
 	border-radius: 5px;
+	border: 3px solid #20ab41;
+	font-weight: 700;
 }
 
 .highlight-box strong {
@@ -2322,10 +2324,28 @@ html[lang^="zh-"] h2 {
 }
 
 .entry-content .is-style-default-larger a {
-	font-size: 21px;
+	font-size: 18px;
 	line-height: 120%;
 	min-width: 300px;
 	padding: 20px;
+}
+
+/* Page, fact counts blocks */
+.fact-counts {
+	background-color: #7bc16d;
+	color: white;
+	border-radius: 5px;
+	padding: 20px 0 0;
+}
+
+/* Block editor, code block */
+.wp-block-code {
+	padding: 20px;
+	background-color: #E5E6E6;
+}
+
+.wp-block-code code {
+	white-space: normal;
 }
 
 @media screen and (min-width: 48em){
