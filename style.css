@@ -2368,10 +2368,13 @@ html[lang^="zh-"] h2 {
 }
 /*首頁最新消息樣式*/
 ul.wp-block-latest-posts li {
-
-    width: 400px;
-    height: 88px;
+    width: 590px;
+    height: 65px;
     background-color: #E9F1F4;
-    padding: 20px 20px;
-    float: left;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.wp-block-latest-posts__post-date {
+    padding-left: 25px;
 }
