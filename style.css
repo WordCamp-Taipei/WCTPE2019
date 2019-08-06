@@ -2366,3 +2366,12 @@ html[lang^="zh-"] h2 {
     color: #FCFFFC;
     
 }
+/*首頁最新消息樣式*/
+ul.wp-block-latest-posts li {
+
+    width: 400px;
+    height: 88px;
+    background-color: #E9F1F4;
+    padding: 20px 20px;
+    float: left;
+}
