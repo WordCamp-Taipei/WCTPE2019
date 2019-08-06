@@ -2372,9 +2372,9 @@ ul.wp-block-latest-posts li {
     height: 65px;
     background-color: #E9F1F4;
     padding: 20px;
-    display: inline-flex;
+    
 }
-
+/*首頁最新消息樣式-日期樣式*/
 .wp-block-latest-posts__post-date {
     padding-left: 25px;
 }
