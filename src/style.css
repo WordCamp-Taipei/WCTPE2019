@@ -2694,6 +2694,7 @@ header#masthead.site-header {
 
 .navigation-top {
 	bottom: 10px;
+	z-index:1000;
 }
 
 @media screen and (min-width:768px) {
