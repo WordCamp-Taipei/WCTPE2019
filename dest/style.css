@@ -2637,3 +2637,227 @@ strong.highlight-box-font {
 		width: 500px;
 	}
 }
+
+/*header設定*/
+/*header背景*/
+
+#wp-custom-header {
+	background: no-repeat;
+	position: fixed;
+	height: 100%;
+	background-image: url('https://2019.taipei.wordcamp.org/files/2019/07/20190721_2000x640px_back.png');
+	background-size: 100%;
+	background-position: top;
+}
+
+@media screen and (max-width:1024px) {
+	#wp-custom-header {
+		background: no-repeat;
+		position: fixed;
+		height: 100%;
+		background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/image_from_ios.png');
+		background-size: 100%;
+		background-position: top;
+	}
+}
+
+
+.has-header-image #masthead .custom-header, 
+.has-header-video #masthead .custom-header {
+	background-color: #FDE579;
+	margin: 0 !important;
+	display: block;
+	min-height: 180px;
+	height: 20vh;
+	width: 100%;
+}
+
+header#masthead.site-header {
+	background-color: #FDE579;
+}
+
+.has-header-image #masthead .custom-header .custom-header-media, 
+.has-header-video #masthead .custom-header .custom-header-media {
+	position: relative;
+}
+
+.has-header-image #masthead .custom-header .custom-header-media img, 
+.has-header-video #masthead .custom-header .custom-header-media img {
+	position: fixed;
+	bottom: auto;
+}
+
+.has-header-image #masthead .custom-header .site-branding, 
+.has-header-video #masthead .custom-header .site-branding {
+	margin: 0 !important;
+			bottom: 0;
+		left: 0;
+		height: auto;
+		padding-top: 0;
+		position: absolute;
+		width: 100%;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.has-header-image #masthead .custom-header, 
+		.has-header-video #masthead .custom-header {
+		height: 32vh;
+		max-height: 280px;
+		display: block;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.has-header-image #masthead .custom-header, 
+		.has-header-video #masthead .custom-header {
+		height: calc(50vh - 32px);
+		max-height: 430px;
+		display: block;
+	}
+}
+
+
+
+@media screen and (min-width:48em) {
+	.has-header-image #masthead .custom-header, 
+		 .has-header-video #masthead .custom-header {
+	   height: calc(70vh - 32px);
+	}
+}
+
+@media screen and (min-width: 1024px)  {
+	.has-header-image #masthead .custom-header, 
+		.has-header-video #masthead .custom-header {
+		height: calc(70vh - 32px);
+	}
+}
+
+
+/*logo*/
+.site-branding {
+	display: block;
+	height: auto !important;
+}
+
+.site-branding .site-description {
+	display: none;
+}
+
+.site-branding .wrap {
+		max-width: 90%;
+	padding: 0px;
+}
+
+.site-branding .site-title>a {
+	display: block;
+	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/wctpe-key-visual-080819-main.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 480px;
+	height: 226px;
+	max-height:calc(70vh - 32px);
+	text-indent: -9999px;
+	max-width: 100%;
+	font-size: 3rem;
+	text-transform: none;
+	background-position: center;
+}
+		.site-header .site-branding{top:-20px;}
+
+
+@media only screen and (min-width: 480px)  {
+	.site-branding .site-title>a {
+		width: 700px;
+		height: 329px;
+		max-height:calc(70vh - 32px);
+	}
+	
+	.site-branding .wrap {
+		max-width: 100%;
+		padding: 0px 0;
+	}
+}
+
+@media screen and (min-width: 768px)  {
+	.site-branding .site-title>a {
+		width: 900px;
+		height: 424px;
+		max-height:calc(50vh - 32px);
+	}
+	
+	.site-branding .wrap {
+		max-width: 100%;
+		padding: 0;
+	}
+			.site-header .site-branding{top:-30px;}
+}
+
+@media screen and (min-width: 950px)  {
+	.site-branding .site-title>a {
+		width: 1050px;
+		height: 494px;
+		max-height:calc(70vh - 32px);
+	}
+	
+	.site-branding .wrap {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 1200px)  {
+	.site-branding .site-title>a {
+		width: 1300px;
+		height: 612px;
+		max-height:calc(70vh - 32px);
+	}
+	
+	.site-branding .wrap {
+	max-width: 1300px;
+		padding: 0;
+	}
+
+}
+
+@media screen and (min-width:1366px) {
+	.site-branding .site-title>a {
+		width: 1300px;
+		height: 612px;
+		max-height:calc(70vh - 32px);
+	}
+	
+	.site-branding .wrap {
+		max-width: 1300px;
+		padding: 0;
+		
+	}
+}
+@media screen and (min-width:1024px) {
+	body:not(.twentyseventeen-front-page) .site-branding .site-title>a {
+		width: 1300px;
+		height: 612px;
+		max-height:calc(70vh - 32px);
+	}
+}
+
+
+/* end of logo 設定*/
+
+/* menu 位置調整*/
+
+.navigation-top {
+	bottom: 10px;
+}
+
+@media screen and (min-width:768px) {
+	.navigation-top {
+		bottom: 18px;
+	}
+}
+
+@media screen and (min-width:1120px) {
+	.navigation-top {
+		bottom: 25px;
+	}
+}
+
+/* end of menu位置調整*/
