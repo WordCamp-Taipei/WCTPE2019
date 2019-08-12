@@ -937,8 +937,8 @@ form h2 {
 .category .widget_categories ul li a,.category .widget_recent_entries ul li a,.page-slug-news .widget_categories ul li a,.page-slug-news .widget_recent_entries ul li a {
 	-webkit-box-shadow: none;
 	        box-shadow: none;
-	background: -webkit-gradient(linear,left top, left bottom,color-stop(60%, transparent),color-stop(0, #ff6));
 	background: -o-linear-gradient(transparent 60%,#ff6 0);
+	background: -webkit-gradient(linear,left top, left bottom,color-stop(60%, transparent),color-stop(0, #ff6));
 	background: linear-gradient(transparent 60%,#ff6 0);
 }
 
@@ -1793,8 +1793,8 @@ h2.widget-title {
 }
 
 .site-footer .widget_nav_menu ul li a {
-	background: -webkit-gradient(linear,left top, left bottom,color-stop(60%, transparent),color-stop(0, #ff6));
 	background: -o-linear-gradient(transparent 60%,#ff6 0);
+	background: -webkit-gradient(linear,left top, left bottom,color-stop(60%, transparent),color-stop(0, #ff6));
 	background: linear-gradient(transparent 60%,#ff6 0);
 	-webkit-box-shadow: none;
 	        box-shadow: none;
