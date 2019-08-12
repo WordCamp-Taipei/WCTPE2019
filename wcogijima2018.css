@@ -1794,4 +1794,10 @@ body:not(.twentyseventeen-front-page):not(.page-slug-sponsors) .site-footer .wcb
 	margin-right: auto;
 }
 
-
+/*網站整體內容區塊寬度*/
+@media screen and (min-width: 1024px){
+.twentyseventeen-panel:nth-child(2) .panel-content .wrap, .twentyseventeen-panel:nth-child(3) .panel-content .wrap {
+    padding-left: 3em;
+    padding-right:3em;
+    max-width:900px;
+}}
