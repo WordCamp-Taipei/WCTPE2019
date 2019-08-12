@@ -2863,3 +2863,11 @@ header#masthead.site-header {
 }
 
 /* end of menu位置調整*/
+
+/*網站整體內容區塊寬度*/
+.wp-block-columns.has-4-columns.home_block {
+    width: 970px;
+    padding: 0px;
+    margin: auto;
+    position: relative;
+}
