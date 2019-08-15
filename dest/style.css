@@ -2933,3 +2933,11 @@ article#panel2 {
 	background-color: #DFFDFF;
 	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h174.png');
 }
+
+/*首頁-關於 WordCamp 介紹按鈕設定*/
+.entry-content a:hover {
+    background: #7BC16D;
+    color: #ffff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
