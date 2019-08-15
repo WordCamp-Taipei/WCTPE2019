@@ -2888,18 +2888,21 @@ header#masthead.site-header {
 }
 
 .wp-block-column.row-right {
+	display: inline-table;
 	background-color: #DFFDFF;
 	text-align: center;
 	height: 174px;
 	padding-top: 25px;
-	padding-left: 76px;
-	padding-right: 128px;
+	padding-left: 56px;
+	padding-right: 20px;
 	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/dialog_box_h174.png');
 	background-repeat: no-repeat;
 }
 
 p.has-text-color {
 	margin-bottom: 10px;
+	display: block;
+    padding: 0 40px;
 }
 
 .entry-content .wp-block-button__link_but {
@@ -2935,14 +2938,8 @@ article#panel2 {
 
 /*首頁-關於 WordCamp 介紹按鈕設定*/
 
-.entry-content a {
-    background: #1FAC43;
-    color: #fff;
-    padding: 3px 22px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-.entry-content a:hover{
-	background: #1FAC43;
-    color: #fff;
+
+p.home_about_but {
+    display: block;
+    float: right;
 }
