@@ -386,7 +386,8 @@ form h2 {
 /* background: linear-gradient(transparent 80%,#ffe792 0); */
 	text-decoration: underline;
 	-webkit-box-shadow: none;
-	        box-shadow: none;
+			box-shadow: none;
+	text-decoration: none;
 }
 
 .entry-content a:active,.entry-content a:focus,.entry-content a:hover {
@@ -2397,9 +2398,7 @@ input#tix-coupon-input {
 	font-weight: 400;
 }
 
-.entry-content a {
-	text-decoration: none;
-}
+
 
 .tix-column-remaining {
 	width: 17%;
@@ -2935,9 +2934,15 @@ article#panel2 {
 }
 
 /*首頁-關於 WordCamp 介紹按鈕設定*/
-.entry-content a:hover {
-    background: #7BC16D;
-    color: #ffff;
+
+.entry-content a {
+    background: #1FAC43;
+    color: #fff;
+    padding: 3px 22px;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+.entry-content a:hover{
+	background: #1FAC43;
+    color: #fff;
 }
