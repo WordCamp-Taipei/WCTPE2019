@@ -49,7 +49,7 @@ ol,ul {
 }
 
 .page.twentyseventeen-front-page .twentyseventeen-panel:nth-child(4) ul {
-	display: -webkit-box;
+	display: -webkit-box !important;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: space-evenly;
@@ -2872,3 +2872,64 @@ header#masthead.site-header {
 		max-width: 900px;
 	}}
 
+/*首頁about樣式*/
+.wp-block-column.row-bg-wapu {
+	margin: auto;
+/* 	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h174.png');
+	background-color: #DFFDFF; */
+}
+
+.outBox.wp-block-button.aligncenter.is-style-default-larger {
+	padding-top: 36px;
+}
+
+.wp-block-columns.has-2-columns.row-extend-width.row-full-width.about_bg {
+	background-color: #DFFDFF;
+	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h174.png');
+}
+
+.wp-block-column.row-right {
+	background-color: #DFFDFF;
+	text-align: center;
+	height: 174px;
+	padding-top: 25px;
+	padding-left: 76px;
+	padding-right: 128px;
+	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/dialog_box_h174.png');
+	background-repeat: no-repeat;
+}
+
+p.has-text-color {
+	margin-bottom: 10px;
+}
+
+.entry-content .wp-block-button__link_but {
+	background-color: #1fac43;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 800;
+	line-height: 1;
+	padding: .75em 2em;
+	text-decoration: none;
+	padding: 0;
+	padding: 5px 10px;
+	margin-top: 6px;
+	float: right;
+}
+
+/*首頁樣式上條框線跟間距離*/
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+	border-top: 0 solid #ddd;
+}
+.panel-content {
+ padding: 0px 0;
+}
+.entry-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/*首頁-關於 WordCamp 介紹背景設定*/
+article#panel2 {
+	background-color: #DFFDFF;
+	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h174.png');
+}
