@@ -49,9 +49,9 @@ ol,ul {
 }
 
 .page.twentyseventeen-front-page .twentyseventeen-panel:nth-child(4) ul {
-	display: -webkit-box !important;
+	display: -webkit-box ;
 	display: -ms-flexbox;
-	display: flex;
+	display: table-row;
 	-webkit-box-pack: space-evenly;
 	    -ms-flex-pack: space-evenly;
 	        justify-content: space-evenly;
@@ -2900,11 +2900,11 @@ header#masthead.site-header {
 	background-repeat: no-repeat;
 }
 
-p.has-text-color {
+/* p.has-text-color {
 	margin-bottom: 10px;
 	display: block;
     padding: 0 40px;
-}
+} */
 
 .entry-content .wp-block-button__link_but {
 	background-color: #1fac43;

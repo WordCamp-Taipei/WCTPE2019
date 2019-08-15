@@ -49,9 +49,9 @@ ol,ul {
 }
 
 .page.twentyseventeen-front-page .twentyseventeen-panel:nth-child(4) ul {
-	display: -webkit-box !important;
+	display: -webkit-box ;
 	display: -ms-flexbox;
-	display: flex;
+	display: table-row;
 	-webkit-box-pack: space-evenly;
 	    -ms-flex-pack: space-evenly;
 	        justify-content: space-evenly;
