@@ -1689,18 +1689,23 @@ body.page-slug-organizers .site-content {
 	        box-shadow: none;
 	color: #0068B6;
 }
-.widget_text ul.social-nav li a .dashicons {
+.widget_text ul.social-nav li a .dashicons, .widget_text ul.social-nav li a .fa {
 	width: auto;
 	height: auto;
 	display: block;
 	margin-top: 20px;
 }
-.widget_text ul.social-nav li a .dashicons:before {
+.widget_text ul.social-nav li a .dashicons:before, .widget_text ul.social-nav li a .fa:before {
 	background-color: #FDD000;
 	color: #0068B6;
-	padding: 15px;
+	padding: 0;
 	border-radius: 50%;
 	font-size: 36px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: inline-block;
+	padding: 0;
 }
 /* .widget_text ul.social-nav li a:hover .dashicons:before {
 	background-color: #0068B6;
@@ -1753,7 +1758,7 @@ body.page-slug-organizers .site-content {
 	.widget_text ul.social-nav li a {
 		font-size: 16px;
 	}
-	.widget_text ul.social-nav li a .dashicons:before {
+	.widget_text ul.social-nav li a .dashicons:before, .widget_text ul.social-nav li a .fa:before {
 		font-size: 42px;
 	}
 }
