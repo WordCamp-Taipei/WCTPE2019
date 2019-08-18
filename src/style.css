@@ -1638,9 +1638,10 @@ body.page-slug-organizers .site-content {
 }
 .site-footer .widget-column.footer-widget-2 > section {
 	width: 50%;
-	padding: 0;
+	padding: 0 20px;
 }
 
+/* footer - social navigation */
 .widget_text ul.social-nav {
 	list-style: none;
 	margin: 0;
@@ -1684,6 +1685,34 @@ body.page-slug-organizers .site-content {
 	background-color: #0068B6;
 	color: white;
 } */
+
+/* footer - subscribe */
+.site-footer .widget-column.footer-widget-2 .widget-title {
+	font-size: 24px;
+	padding: 0;
+	margin: 0 0 10px;
+	color: #FDD000;
+}
+.site-footer .widget-column.footer-widget-2 .widget_blog_subscription p {
+	display: inline-block;
+}
+.site-footer .widget-column.footer-widget-2 .widget_blog_subscription input[type="email"] {
+	height: 50px;
+	border-radius: 10px 0 0 10px;
+	border: 0;
+	margin: 0;
+	width: 180px !important;
+}
+.site-footer .widget-column.footer-widget-2 .widget_blog_subscription button[type="submit"] {
+	background-color: #FDD000;
+	color: #0068B6;
+	font-size: 16px;
+	border-radius: 0 10px 0 0;
+	height: 50px;
+	position: relative;
+	left: -4px;
+	border: 0;
+}
 
 @media screen and (min-width:40em) {
 	body:not(.twentyseventeen-front-page) .site-footer {
