@@ -2126,14 +2126,28 @@ ul.wp-block-latest-posts {
 	color: #fff;
 	border-radius: 5px;
 	font-weight: 800;
+	font-size: 14px;
 	line-height: 1;
+	margin-top: 20px;
 	padding: .75em 2em;
 	text-decoration: none;
+
+
+	color: #ffffff;
+	border-radius: 10px 10px 0 10px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	background: linear-gradient(145DEG,#7BC16D,#20AB41);
+	transition: all .2s ease-in-out;
 }
 
 /*網站單獨按鈕樣式*/
-.entry-content .wp-block-button__link:hover {
-	background-color: #7BC16D !important;
+.entry-content .wp-block-button__link:hover, .entry-content .wp-block-button__link:focus, .entry-content .is-style-outline .wp-block-button__link:not(.has-background):hover, .entry-content .is-style-outline .wp-block-button__link:not(.has-background):focus {
+	/* background-color: #7BC16D; */
+	background: linear-gradient(145DEG,#7BC16D,#20AB41);
+	color: white;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+	opacity: .9;
+	transform: scale(1.04);
 }
 
 a.wp-block-button__link:active {
@@ -2146,16 +2160,31 @@ a.wp-block-button__link:active {
 }
 
 /* 語言 code */
+.language-tag {
+	position: relative;
+	margin: 60px 0;
+}
+.language-tag:before {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	height: 3px;
+	background-color: #6b9bd2;
+}
 .language-tag code {
 	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: bold;
-	background-color: #666666;
-	color: white;
+	background-color: white;
+	color: #6b9bd2;
 	padding: 6px 10px;
 	border-radius: 5px;
 	text-transform: uppercase;
 	letter-spacing: 1px !important;
+	position: relative;
 }
 
 .fixed-quick-link {
@@ -2339,7 +2368,7 @@ h3.wordcamp-block__post-title.wordcamp-sponsors__title {
 /* highlight box */
 .highlight-box {
 	line-height: 110%;
-	border-radius: 5px;
+	border-radius: 10px;
 	border: 3px solid #20ab41;
 	font-weight: 700;
 }
@@ -2472,6 +2501,19 @@ html[lang^="zh-"] h2 {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
+	color: #ffffff;
+	border-radius: 10px 10px 0 10px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	background: linear-gradient(145DEG,#7BC16D,#20AB41);
+	max-width: inherit;
+	min-height: 180px;
+	transition: all .2s ease-in-out;
+}
+
+.entry-content .is-style-default-larger a:hover {
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+	opacity: .9;
+	transform: scale(1.02);
 }
 
 /* Page, fact counts blocks */
@@ -2900,22 +2942,6 @@ header#masthead.site-header {
 	padding-right: 20px;
 	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/dialog_box_h174.png');
 	background-repeat: no-repeat;
-}
-
-
-
-.entry-content .wp-block-button__link_but {
-	background-color: #1fac43;
-	color: #fff;
-	border-radius: 5px;
-	font-weight: 800;
-	line-height: 1;
-	padding: .75em 2em;
-	text-decoration: none;
-	padding: 0;
-	padding: 5px 10px;
-	margin-top: 6px;
-	float: right;
 }
 
 /*首頁樣式上條框線跟間距離*/
