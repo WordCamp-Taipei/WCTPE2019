@@ -8,7 +8,7 @@ html[lang^="zh-"] button,
 html[lang^="zh-"] input,
 html[lang^="zh-"] select,
 html[lang^="zh-"] textarea {
-	font-family: Roboto, 'noto sans TC', sans-serif;
+	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 }
 
 a, .nav-title a {
@@ -327,7 +327,7 @@ form h2 {
 
 .entry-content>blockquote:before {
 	content: "!";
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 	font-weight: 700;
 	font-size: 50px;
 	color: #fff;
@@ -541,14 +541,15 @@ form h2 {
 }
 
 .navigation-top {
-	background-color: #0068b699;
-	border-radius: 0;
+	background-color: #0068b6;
+	border-radius: 10px;
 	border-top: none;
 	border-bottom: none;
 /* 	margin: 0 20px; */
 	bottom: 45px;
 	width: auto;
 	font-size: 1rem;
+	padding: 0 20px;
 }
 
 .navigation-top .wrap {
@@ -580,9 +581,10 @@ form h2 {
 	background-color: #6b9bd2;
 }
 
-.main-navigation ul {
+/* .main-navigation ul {
 	background: #0068b699;
-}
+	border-radius: 10px;
+} */
 
 .main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
 	left: 0;
@@ -2145,7 +2147,7 @@ a.wp-block-button__link:active {
 
 /* 語言 code */
 .language-tag code {
-	font-family: Roboto, 'noto sans TC', sans-serif;
+	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	background-color: #666666;
@@ -2384,7 +2386,7 @@ input#tix-coupon-input {
 
 .tix-js input[type=submit]:hover {
 	background-color: #7CC16E;
-	font-family: Roboto, 'noto sans TC', sans-serif;
+	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 }
 
 .entry-content table tr {
@@ -2597,7 +2599,7 @@ strong.highlight-box-font {
 .popup h2 {
 	margin-top: 0;
 	color: #333;
-	font-family: Tahoma, Arial, sans-serif;
+	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 }
 
 .popup .close {
@@ -2663,7 +2665,7 @@ strong.highlight-box-font {
 }
 
 
-.has-header-image #masthead .custom-header, 
+.has-header-image #masthead .custom-header,
 .has-header-video #masthead .custom-header {
 	background-color: #FDE579;
 	margin: 0 !important;
@@ -2677,18 +2679,18 @@ header#masthead.site-header {
 	background-color: #FDE579;
 }
 
-.has-header-image #masthead .custom-header .custom-header-media, 
+.has-header-image #masthead .custom-header .custom-header-media,
 .has-header-video #masthead .custom-header .custom-header-media {
 	position: relative;
 }
 
-.has-header-image #masthead .custom-header .custom-header-media img, 
+.has-header-image #masthead .custom-header .custom-header-media img,
 .has-header-video #masthead .custom-header .custom-header-media img {
 	position: fixed;
 	bottom: auto;
 }
 
-.has-header-image #masthead .custom-header .site-branding, 
+.has-header-image #masthead .custom-header .site-branding,
 .has-header-video #masthead .custom-header .site-branding {
 	margin: 0 !important;
 			bottom: 0;
@@ -2700,7 +2702,7 @@ header#masthead.site-header {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.has-header-image #masthead .custom-header, 
+	.has-header-image #masthead .custom-header,
 		.has-header-video #masthead .custom-header {
 		height: 32vh;
 		max-height: 280px;
@@ -2708,7 +2710,7 @@ header#masthead.site-header {
 	}
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	.has-header-image #masthead .custom-header, 
+	.has-header-image #masthead .custom-header,
 		.has-header-video #masthead .custom-header {
 		height: calc(50vh - 32px);
 		max-height: 430px;
@@ -2719,14 +2721,14 @@ header#masthead.site-header {
 
 
 @media screen and (min-width:48em) {
-	.has-header-image #masthead .custom-header, 
+	.has-header-image #masthead .custom-header,
 		 .has-header-video #masthead .custom-header {
 	   height: calc(70vh - 32px);
 	}
 }
 
 @media screen and (min-width: 1024px)  {
-	.has-header-image #masthead .custom-header, 
+	.has-header-image #masthead .custom-header,
 		.has-header-video #masthead .custom-header {
 		height: calc(70vh - 32px);
 	}
@@ -2771,7 +2773,7 @@ header#masthead.site-header {
 		height: 329px;
 		max-height:calc(70vh - 32px);
 	}
-	
+
 	.site-branding .wrap {
 		max-width: 100%;
 		padding: 0px 0;
@@ -2784,7 +2786,7 @@ header#masthead.site-header {
 		height: 424px;
 		max-height:calc(50vh - 32px);
 	}
-	
+
 	.site-branding .wrap {
 		max-width: 100%;
 		padding: 0;
@@ -2798,7 +2800,7 @@ header#masthead.site-header {
 		height: 494px;
 		max-height:calc(70vh - 32px);
 	}
-	
+
 	.site-branding .wrap {
 		max-width: 100%;
 		padding: 0;
@@ -2811,7 +2813,7 @@ header#masthead.site-header {
 		height: 612px;
 		max-height:calc(70vh - 32px);
 	}
-	
+
 	.site-branding .wrap {
 	max-width: 1300px;
 		padding: 0;
@@ -2825,11 +2827,11 @@ header#masthead.site-header {
 		height: 612px;
 		max-height:calc(70vh - 32px);
 	}
-	
+
 	.site-branding .wrap {
 		max-width: 1300px;
 		padding: 0;
-		
+
 	}
 }
 @media screen and (min-width:1024px) {
