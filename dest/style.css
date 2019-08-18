@@ -1685,7 +1685,6 @@ body.page-slug-organizers .site-content {
 	height: auto;
 	display: block;
 	margin-top: 20px;
-	margin-bottom: 10px;
 }
 .widget_text ul.social-nav li a .dashicons:before {
 	background-color: #FDD000;
@@ -1725,6 +1724,10 @@ body.page-slug-organizers .site-content {
 	position: relative;
 	left: -4px;
 	border: 0;
+}
+.site-footer .widget-column.footer-widget-2 .widget_blog_subscription button[type="submit"]:hover {
+	background-color: #0068b6;
+	color: white;
 }
 
 @media screen and (min-width:40em) {
