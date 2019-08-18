@@ -1424,10 +1424,6 @@ a.pushbutton-link:active,a.pushbutton-link:focus {
 	background: #ddd !important;
 }
 
-body.page-slug-sponsors .site-content {
-	display: none;
-}
-
 @media screen and (min-width:40em) {
 	body.page-slug-sponsors .site-footer {
 		margin-top: 0 !important;
