@@ -1600,11 +1600,17 @@ body.page-slug-organizers .site-content {
 	border: 0;
 }
 .site-footer:before {
-	content: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep.png);
-	display: inline-block;
+	content: "";
+	display: block;
+	background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+	background-position: center;
 	width: 100%;
-	height: auto;
-	text-align: center;
+	max-width: 1200px;
+	padding-top: 8%;
+	/* padding-top: calc( 100% * 2 / 3 ); */
+	margin: 0 auto;
 }
 .site-footer .wrap {
 	max-width: inherit;
@@ -1631,15 +1637,19 @@ body.page-slug-organizers .site-content {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: space-evenly;
-	    -ms-flex-pack: space-evenly;
-	        justify-content: space-evenly;
-	-ms-flex-wrap: nowrap;
-	    flex-wrap: nowrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 .site-footer .widget-column.footer-widget-2 > section {
-	width: 50%;
+	width: 100%;
 	padding: 0 20px;
+}
+.site-footer .widget-column.footer-widget-2 > section:last-child {
+	text-align: center;
+	padding: 40px 0 0;
 }
 
 /* footer - social navigation */
@@ -1649,18 +1659,21 @@ body.page-slug-organizers .site-content {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	/* justify-content: space-evenly; */
-	-webkit-box-pack: end;
-	    -ms-flex-pack: end;
-	        justify-content: flex-end;
+	-webkit-box-pack: space-evenly;
+	    -ms-flex-pack: space-evenly;
+	        justify-content: space-evenly;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 .widget_text ul.social-nav li {
 	/* width: 33.33%; */
 	text-align: center;
-	padding: 0 20px;
+	padding: 20px 10px;
 }
 .widget_text ul.social-nav li a {
 	color: white;
@@ -1668,7 +1681,7 @@ body.page-slug-organizers .site-content {
 	-webkit-box-shadow: none;
 	        box-shadow: none;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 14px;
 }
 .widget_text ul.social-nav li a:hover {
 	color: white;
@@ -1687,7 +1700,7 @@ body.page-slug-organizers .site-content {
 	color: #0068B6;
 	padding: 15px;
 	border-radius: 50%;
-	font-size: 42px;
+	font-size: 36px;
 }
 /* .widget_text ul.social-nav li a:hover .dashicons:before {
 	background-color: #0068B6;
@@ -1709,13 +1722,14 @@ body.page-slug-organizers .site-content {
 	border-radius: 10px 0 0 10px;
 	border: 0;
 	margin: 0;
-	width: 180px !important;
+	width: 160px !important;
 }
 .site-footer .widget-column.footer-widget-2 .widget_blog_subscription button[type="submit"] {
 	background-color: #FDD000;
 	color: #0068B6;
 	font-size: 16px;
 	border-radius: 0 10px 0 0;
+	padding: 0 15px;
 	height: 50px;
 	position: relative;
 	left: -4px;
@@ -1724,6 +1738,48 @@ body.page-slug-organizers .site-content {
 .site-footer .widget-column.footer-widget-2 .widget_blog_subscription button[type="submit"]:hover {
 	background-color: #0068b6;
 	color: white;
+}
+
+@media screen and (min-width: 451px) {
+	.widget_text ul.social-nav {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	}
+	.widget_text ul.social-nav li {
+		padding: 0 20px;
+	}
+	.widget_text ul.social-nav li a {
+		font-size: 16px;
+	}
+	.widget_text ul.social-nav li a .dashicons:before {
+		font-size: 42px;
+	}
+}
+@media screen and (min-width: 861px) {
+	.site-footer .widget-column.footer-widget-2 {
+		-ms-flex-wrap: nowrap;
+		    flex-wrap: nowrap;
+	}
+	.site-footer .widget-column.footer-widget-2 > section {
+		padding: 0 20px;
+		width: auto;
+	}
+	.site-footer .widget-column.footer-widget-2 > section:last-child {
+		width: 40%;
+		text-align: left;
+		padding: 0 20px;
+	}
+	.widget_text ul.social-nav {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
+	}
 }
 
 @media screen and (min-width:40em) {
@@ -1886,12 +1942,6 @@ h2.widget-title {
 
 .site-footer .widget-area .widget-column:first-child {
 	margin-top: 10px;
-}
-
-@media screen and (max-width:1024px) {
-	.site-footer .widget-area .widget-column {
-		padding: 0;
-	}
 }
 
 @media screen and (min-width:768px) {
