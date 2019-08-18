@@ -1897,20 +1897,20 @@ body:not(.twentyseventeen-front-page):not(.page-slug-sponsors) .site-footer .wcb
 }
 
 .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+2) .sponsor-logo {
-	-ms-flex: 0 1 33%;
-	-webkit-box-flex: 0;
-	        flex: 0 1 33%;
+  flex: 0 1 33%;
 }
 
 .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+3) .sponsor-logo {
-	-ms-flex: 0 1 25%;
-	-webkit-box-flex: 0;
-	        flex: 0 1 25%;
+  flex: 0 1 25%;
 }
 .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+4) .sponsor-logo {
-	-ms-flex: 0 1 20%;
-	-webkit-box-flex: 0;
-	        flex: 0 1 20%;
+  flex: 0 1 20%;
+}
+@media screen and (max-width: 450px) {
+	.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+3) .sponsor-logo,
+	.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+4) .sponsor-logo {
+	  flex: 0 1 33%;
+	}
 }
 
 h2.widget-title {
@@ -2341,7 +2341,7 @@ a.wp-block-button__link:active {
 	letter-spacing: 1px !important;
 	position: relative;
 }
-.language-tag code .dashicon {
+.language-tag code .dashicons {
 	font-size: 24px;
 	height: auto;
 	width: auto;
@@ -2707,6 +2707,9 @@ html[lang^="zh-"] h2 {
 
 }
 /*首頁最新消息樣式*/
+ul.wp-block-latest-posts {
+	margin: 0;
+}
 ul.wp-block-latest-posts li {
 	border-radius: 7px;
     width: 100%;
