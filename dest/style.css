@@ -581,10 +581,12 @@ form h2 {
 	background-color: #6b9bd2;
 }
 
-/* .main-navigation ul {
-	background: #0068b699;
-	border-radius: 10px;
-} */
+.main-navigation ul {
+	background: none;
+	border: 0;
+	/* background: #0068b699;
+	border-radius: 10px; */
+}
 
 .main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
 	left: 0;
@@ -1693,7 +1695,6 @@ body.page-slug-organizers .site-content {
 	width: auto;
 	height: auto;
 	display: block;
-	margin-top: 20px;
 }
 .widget_text ul.social-nav li a .dashicons:before, .widget_text ul.social-nav li a .fa:before {
 	background-color: #FDD000;
@@ -2226,9 +2227,9 @@ ul.wp-block-latest-posts li {
 	list-style: none;
 }
 
-ul.wp-block-latest-posts {
+/* ul.wp-block-latest-posts {
 	margin-left: 1.2em;
-}
+} */
 
 .d-flex {
 	display: -webkit-box;
@@ -2359,6 +2360,7 @@ a.wp-block-button__link:active {
 	position: absolute;
 	left: 0;
 	top: 50%;
+  top: calc( 50% - 3px);
 	height: 3px;
 	background-color: #6b9bd2;
 }
@@ -2373,6 +2375,11 @@ a.wp-block-button__link:active {
 	text-transform: uppercase;
 	letter-spacing: 1px !important;
 	position: relative;
+}
+.language-tag code .dashicon {
+	font-size: 24px;
+	height: auto;
+	width: auto;
 }
 
 .fixed-quick-link {
@@ -2746,7 +2753,7 @@ html[lang^="zh-"] h2 {
 ul.wp-block-latest-posts li {
 	border-radius: 7px;
     width: 100%;
-    height: 65px;
+    /* height: 65px; */
     background-color: #FCCF00;
     padding: 20px;
     display: -webkit-inline-box;
