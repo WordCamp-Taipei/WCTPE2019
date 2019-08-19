@@ -273,8 +273,8 @@ button, input[type="button"], input[type="submit"] {
 }
 
 body.page:not(.page-slug-code-of-conduct):not(.page-slug-code-of-conduct-en) .entry-content>h2, body.page:not(.page-slug-code-of-conduct):not(.page-slug-code-of-conduct-en) .entry-content>h3, form h2 {
-	border-left: 7px solid #FDD000;
-	padding-left: 7px;
+	/* border-left: 7px solid #FDD000;
+	padding-left: 7px; */
 }
 
 form h2 {
@@ -3185,4 +3185,31 @@ p.home_about_but {
     display: block;
 	float: right;
 	padding-right: 35px;
+}
+
+
+ul.wp-block-latest-posts li a {
+	color: #0068B6;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.wp-block-latest-posts__post-date {
+	padding-left: 25px;
+	font-size: 14px;
+	line-height: 20px;
+}
+/*首頁最新消息-框線設定*/
+ul.wp-block-latest-posts li {
+	border-radius: 7px;
+	width: 100%;
+	background-color: #FCCF00;
+	padding: 20px;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	border: 2px solid #FCCF00;
+	outline: 2.5px solid #FFF2C4;
+	border-radius: 7px;
+	outline-offset: -7px;
 }
