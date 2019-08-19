@@ -3213,3 +3213,9 @@ ul.wp-block-latest-posts li {
 	border-radius: 7px;
 	outline-offset: -7px;
 }
+/*引用樣式調整*/
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+    border: 0;
+    padding: 0;
+    padding: 30px 106px;
+}
