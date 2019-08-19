@@ -2765,7 +2765,7 @@ ul.wp-block-latest-posts li {
 	border-radius: 7px;
     width: 100%;
     /* height: 65px; */
-    background-color: #FCCF00;
+    background-color: #FDF2C9;
     padding: 20px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -3203,7 +3203,7 @@ ul.wp-block-latest-posts li a {
 ul.wp-block-latest-posts li {
 	border-radius: 7px;
 	width: 100%;
-	background-color: #FCCF00;
+	background-color: #FDF2C9;
 	padding: 20px;
 	display: -webkit-inline-box;
 	display: -ms-inline-flexbox;
