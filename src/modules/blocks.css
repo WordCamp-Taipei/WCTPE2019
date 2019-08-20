@@ -280,3 +280,67 @@ ul.wp-block-latest-posts li a:hover {
 .entry-content blockquote.is-style-info>*+.entry-content blockquote.is-style-info>* {
 	margin-top: 1em;
 }
+
+/* Blog editor - separator */
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.is-style-building):not(.is-style-full) {
+	border: 0;
+	background: none;
+	max-width: 450px;
+	background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep-mobile.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 8%;
+}
+.wp-block-separator.is-style-wide {
+	border: 0;
+	background: none;
+	background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep-02.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 8%;
+}
+.wp-block-separator.is-style-dots {
+	border-bottom: 5px dotted #FDD000;
+}
+.wp-block-separator.is-style-dots:before {
+	display: none;
+}
+.wp-block-separator.is-style-full {
+	border: 0;
+	background: none;
+	background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep-03.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 10%;
+	max-width: 100% !important;
+}
+.wp-block-separator.is-style-building {
+	border: 0;
+	background: none;
+	background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep-04.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 15%;
+	max-width: 100% !important;
+}
+@media screen and (max-width: 450px) {
+	.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.is-style-building):not(.is-style-full) {
+		padding-top: 12%;
+	}
+  .wp-block-separator.is-style-wide {
+    background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep-mobile-02.png);
+		padding-top: 12%;
+  }
+	.wp-block-separator.is-style-full {
+		background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep-mobile-03.png);
+		padding-top: 12%;
+	}
+	.wp-block-separator.is-style-building {
+		background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep-mobile-04.png);
+		padding-top: 36%;
+	}
+}
