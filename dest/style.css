@@ -3234,12 +3234,12 @@ h1.home_news_title {
     font-size: 28px;
     line-height: 45px;
 }
-.page.twentyseventeen-front-page .twentyseventeen-panel .entry-content>h1#home_info_title {
+.page.twentyseventeen-front-page .twentyseventeen-panel .entry-content>h1.home_info_title {
     font-size: 45px;
     letter-spacing: 30px;
 }
 
-.entry-content>h2#home_info_sub {
+.entry-content>h2.home_info_sub {
     font-size: 30px;
     padding: 0px;
     margin: 15px 0px;
