@@ -33,7 +33,7 @@ a:hover, .nav-title a:hover {
 	background: linear-gradient(transparent 60%,#FFE792 0);
 }
 
-h1:not(.site-title), h1.entry-title:not(:first-child), .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title, .site-footer .widget-column.footer-widget-1 h2.widget-title {
+h1:not(.site-title):not(.home_info_title), h1.entry-title:not(:first-child), .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title, .site-footer .widget-column.footer-widget-1 h2.widget-title {
 	background-color: #0068b6;
 	color: white;
 	display: inline-block;
@@ -46,7 +46,7 @@ h1:not(.site-title), h1.entry-title:not(:first-child), .page .panel-content .ent
 	text-transform: none;
 	letter-spacing: 1px !important;
 }
-h1:not(.site-title):after, .site-footer .widget-column.footer-widget-1 h2.widget-title:before {
+h1:not(.site-title):not(.home_info_title):after, .site-footer .widget-column.footer-widget-1 h2.widget-title:before {
 	content: '';
 	display: inline-block;
 	width: 0;
@@ -60,12 +60,12 @@ h1:not(.site-title):after, .site-footer .widget-column.footer-widget-1 h2.widget
 	transform: rotate(15deg);
 }
 
-h2:not(.widget-title), h4.sponsor-level-title {
+h2:not(.widget-title):not(.home_info_sub), h4.sponsor-level-title {
 	color: #6b9bd2;
 	font-size: 28px;
 }
 
-h2:not(.widget-title):before, h4.sponsor-level-title:before {
+h2:not(.widget-title):not(.home_info_sub):before, h4.sponsor-level-title:before {
 	content: '';
 	display: inline-block;
 	width: 32px;
@@ -112,7 +112,7 @@ h4:not(.sponsor-level-title), h5, h6, p {
 	padding-top: 8%;
 }
 .wp-block-separator.is-style-dots {
-	border-bottom: 5px dotted #FDD000;	
+	border-bottom: 5px dotted #FDD000;
 }
 .wp-block-separator.is-style-dots:before {
 	display: none;
