@@ -92,7 +92,7 @@ h4:not(.sponsor-level-title), h5, h6, p {
 }
 
 /* Blog editytor - separator */
-.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.is-style-building):not(.is-style-long) {
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.is-style-building):not(.is-style-full) {
 	border: 0;
 	background: none;
 	max-width: 450px;
@@ -117,7 +117,7 @@ h4:not(.sponsor-level-title), h5, h6, p {
 .wp-block-separator.is-style-dots:before {
 	display: none;
 }
-.wp-block-separator.is-style-long {
+.wp-block-separator.is-style-full {
 	border: 0;
 	background: none;
 	background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/footer-sep-03.png);
@@ -125,6 +125,7 @@ h4:not(.sponsor-level-title), h5, h6, p {
 	background-repeat: no-repeat;
 	background-position: center;
 	padding-top: 10%;
+	max-width: 100% !important;
 }
 .wp-block-separator.is-style-building {
 	border: 0;
