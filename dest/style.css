@@ -3221,7 +3221,7 @@ ul.wp-block-latest-posts li {
 }
 
 /*首頁-各區塊標題樣式*/
-h1#home_news_title {
+h1.home_news_title {
 	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/h3_title_bg.png');
 	height: 62px;
 	background-repeat: no-repeat;
@@ -3229,7 +3229,7 @@ h1#home_news_title {
 	color: #fffff;
 }
 
-.page.twentyseventeen-front-page .twentyseventeen-panel .entry-content>h1#home_news_title {
+.page.twentyseventeen-front-page .twentyseventeen-panel .entry-content>h1.home_news_title {
     color: #fff;
     font-size: 28px;
     line-height: 45px;
