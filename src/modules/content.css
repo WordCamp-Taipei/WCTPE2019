@@ -1,3 +1,8 @@
+@media screen and (max-width: 768px) {
+	.page .site-main {
+		padding: 0 20px;
+	}
+}
 /* homepage panel styling */
 .page.twentyseventeen-front-page .twentyseventeen-panel .wrap > .entry-header {
 	display: none;
@@ -19,6 +24,9 @@
   padding: 0px;
   margin: 15px 0px;
   color: #6b9bd2;
+}
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child):not(:last-child) {
+  border-bottom: 5px dotted #FDD000;
 }
 
 /*網站整體內容區塊寬度*/
