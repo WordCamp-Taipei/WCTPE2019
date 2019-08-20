@@ -219,9 +219,14 @@ ul.wp-block-latest-posts li a:hover {
 	font-size: 1rem;
 	color: #4b4848;
   border: 0;
-  padding: 0;
-  padding: 30px 106px;
 }
+
+.wp-block-quote.is-style-info:not(.is-large):not(.is-style-large) {
+  border: 0;
+  padding: 0;
+  padding: 1rem 1rem 1rem calc(2rem + 37px);
+}
+
 .entry-content blockquote.is-style-info a {
   color: #0068B6;
 }
@@ -230,6 +235,11 @@ ul.wp-block-latest-posts li a:hover {
 	.entry-content blockquote.is-style-info {
 		padding: 2rem 2rem 2rem calc(3rem + 37px);
 	}
+  .wp-block-quote.is-style-info:not(.is-large):not(.is-style-large) {
+    border: 0;
+    padding: 0;
+    padding: 2rem 2rem 2rem calc(3rem + 37px);
+  }
 }
 
 .entry-content blockquote.is-style-info:before {
