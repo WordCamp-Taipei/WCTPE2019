@@ -1,0 +1,44 @@
+/* hide single post sidebar & adjust blog layout */
+#page #secondary {
+	display: none;
+}
+#page #primary {
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+	max-width: none;
+}
+
+.category .site-content,.page-slug-news .site-content {
+	max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:48em) {
+	.category #page #primary,.page-slug-news #page #primary {
+		float: left;
+		width: 70%;
+		border-right: 1px solid #ddd;
+		padding-right: 4%;
+	}
+}
+
+.category #page #secondary,.page-slug-news #page #secondary {
+	display: block;
+	border-top: 1px solid #ddd;
+}
+
+@media screen and (min-width:48em) {
+	.category #page #secondary,.page-slug-news #page #secondary {
+		border-top: 0;
+		width: 28%;
+		position: relative;
+		top: -.5rem;
+		padding-left: 2%;
+	}
+}
+
+.entry-header .entry-title {
+  margin-bottom: 20px;
+}

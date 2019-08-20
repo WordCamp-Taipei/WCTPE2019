@@ -51,11 +51,13 @@
 5. Appearance > Customize > Site Identity - 設定網站標題及標語
 6. Appearance > Customize > Homepage settings - 設定 Homepage & Post page
 7. Appearance > Customize > Menu - 設定剛剛匯入的選單
-8. Appearance > Customize > Widgets - 設定 Post page 側邊欄小工具
+8. Appearance > Customize > Widgets - 設定 Post page 側邊欄小工具 & 頁尾 Footer
 9. Appearance > Customize > Theme options - Page layout: 1 column
 10. Appearance > Customize > Theme options - 設定首頁區塊
-11. Appearance > Fonts > Google Web Fonts
-   `@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Roboto&display=swap');`
+11. Appearance > Fonts >
+  1. Google Web Fonts: `@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Roboto&display=swap');`
+  2. Font Awesome: `https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css`
+  3. Check "Enqueue Dashicons"
 
 ## 開工囉！
 

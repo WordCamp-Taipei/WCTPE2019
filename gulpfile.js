@@ -4,26 +4,28 @@ const autoprefixer 	= require( 'autoprefixer' );
 const cssnano 			= require( 'cssnano' );
 const rename    		= require( 'gulp-rename' );
 const livereload 		= require( 'gulp-livereload' );
+const concat 				= require( 'gulp-concat' );
 
 function css() {
-	return gulp.src( './src/*.css' )
+	return gulp.src( './src/**/*.css' )
 		.pipe( postcss([
 			autoprefixer()
 		]) )
+		.pipe( concat('style.css') )
 		.pipe( gulp.dest( './dest' ) )
-		.pipe(postcss([
+		.pipe( postcss([
 			cssnano({
 				'zindex': false
 			})
 		]))
-		.pipe(rename({suffix: '.min'}))
-		.pipe(gulp.dest('./dest'))
+		.pipe( rename({suffix: '.min'}) )
+		.pipe( gulp.dest('./dest') )
 		.pipe( livereload() );
 }
 
 function watch() {
 	livereload.listen();
-	gulp.watch( './src/*.css', gulp.series( css ) );
+	gulp.watch( './src/**/*.css', gulp.series( css ) );
 }
 
 exports.css = css;

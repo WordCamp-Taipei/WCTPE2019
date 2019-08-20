@@ -1,0 +1,128 @@
+.wcorg-organizers {
+	margin-top: 1em !important;
+	border: 1px solid #bbcce9;
+	padding: 15px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width:48em) {
+	.wcorg-organizers {
+		margin-top: 2em !important;
+		margin-bottom: 4em;
+	}
+}
+
+.wcorg-organizer {
+	position: relative;
+	padding: 20px 20px 0;
+	margin: 0;
+	display: inline-block !important;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 0 100%;
+	        flex: 1 0 100%;
+}
+
+.wcorg-organizer h2 {
+	top: 1em;
+	z-index: 0;
+	color: #6b9bd2;
+	font-size: 1.5rem;
+}
+
+.wcorg-organizers-lead .wcorg-organizer {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 0 100%;
+	        flex: 1 0 100%;
+}
+
+@media screen and (min-width:30em) {
+	.wcorg-organizer h2 {
+		top: .8em;
+	}
+}
+
+.wcorg-organizer img {
+/* 	position: absolute; */
+	top: 3.8em;
+	left: 20px;
+	z-index: 0;
+}
+
+@media screen and (min-width:30em) {
+	.wcorg-organizer img {
+		top: 4.2em;
+	}
+}
+
+.organizer__content {
+	position: relative;
+	top: 0;
+	z-index: 1;
+	min-height: 6em;
+}
+
+@media screen and (min-width:48em) {
+	.organizer__link {
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: flex;
+	}
+
+	.organizer__link a {
+		margin-right: 1em;
+	}
+
+	.wcorg-organizer {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 33.33%;
+		        flex: 0 0 33.33%;
+	}
+
+	.organizer__content {
+		position: relative;
+		top: 0;
+		padding: .5em 0 0;
+		z-index: 1;
+		min-height: 3em;
+	}
+}
+
+@media screen and (min-width:700px) and (max-width:900px) {
+	.wcorg-organizer {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 50%;
+		        flex: 0 50%;
+	}
+}
+
+@media screen and (max-width:700px) {
+	.organizer__content {
+		position: relative;
+		top: 0;
+		padding: .5em 0 0;
+		z-index: 1;
+		min-height: 3em;
+	}
+
+	.wcorg-organizer img {
+		top: 4.2em;
+		float: none;
+	}
+
+	.wcorg-organizer {
+		padding: 10px 10px 0;
+	}
+}

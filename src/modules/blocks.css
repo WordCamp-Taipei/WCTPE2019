@@ -1,0 +1,210 @@
+/* 首頁最新消息 */
+ul.wp-block-latest-posts {
+  margin: 0;
+  list-style: none;
+}
+.wp-block-latest-posts__post-date {
+	font-size: 14px;
+  font-weight: bold;
+	line-height: 20px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #0068B6;
+  pointer-events: none;
+}
+
+ul.wp-block-latest-posts li {
+	border-radius: 7px;
+	width: 100%;
+	/* display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex; */
+  margin-bottom: 10px;
+  position: relative;
+}
+ul.wp-block-latest-posts li a {
+  background: none;
+  background-color: #FFF4CC;
+  border: 8px solid #FFF4CC;
+  outline: 3px solid #FFE972;
+  border-radius: 5px;
+  outline-offset: -8px;
+  padding: 32px 12px 12px;
+	color: #4B4848;
+	font-size: 18px;
+	line-height: 20px;
+  font-weight: bold;
+  display: block;
+  transition: all .25s ease-in-out;
+  letter-spacing: 1px !important;
+}
+ul.wp-block-latest-posts li a:hover {
+  background: none;
+  background-color: #FDD000;
+  outline: 3px solid #FFF4CC;
+  border: 8px solid #FDD000;
+}
+
+/* Block editor - button */
+.entry-content .is-style-default-larger a img {
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	margin: 10px auto 0;
+}
+
+.entry-content .is-style-default-larger a {
+	font-size: 18px;
+	line-height: 120%;
+	padding: 20px;
+	width: 100%;
+	max-width: 300px;
+	min-height: 160px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	vertical-align: bottom;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	color: #ffffff;
+	border-radius: 10px 10px 0 10px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	background: linear-gradient(145DEG,#7BC16D,#20AB41);
+	max-width: inherit;
+	min-height: 180px;
+	transition: all .2s ease-in-out;
+}
+
+.entry-content .is-style-default-larger a:hover {
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+	opacity: .9;
+	transform: scale(1.02);
+}
+
+/* Block editor - fact counts blocks */
+.fact-counts {
+	background-color: #7bc16d;
+	color: white;
+	border-radius: 5px;
+	padding: 20px 0 0;
+}
+
+/* Block editor - code block */
+.wp-block-code {
+	padding: 20px;
+	background-color: #E5E6E6;
+}
+
+.wp-block-code code {
+	white-space: normal;
+}
+
+/* Block editor - highlight box */
+.highlight-box {
+	line-height: 110%;
+	border-radius: 10px;
+	border: 3px solid #20ab41;
+	font-weight: 700;
+}
+
+.highlight-box strong {
+	font-size: 42px;
+	line-height: 56px;
+}
+
+/* Block editor - quick links */
+.fixed-quick-link {
+	position: fixed;
+	top: 40%;
+	top: 40vh;
+	right: 0;
+	display: inline-block;
+	z-index: 99;
+	background-color: #bfdead;
+	padding: 10px 10px 10px 30px;
+	border-radius: 3px 0 0 3px;
+}
+
+.fixed-quick-link-label {
+	position: absolute;
+	-webkit-transform: rotate(-90deg);
+	    -ms-transform: rotate(-90deg);
+	        transform: rotate(-90deg);
+/* 	top: 0; */
+	bottom: 40px;
+	white-space: nowrap;
+/* 	left: 0; */
+	right: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	pointer-events: none;
+/* 	color: white; */
+}
+
+.fixed-quick-link a {
+	display: block;
+	-webkit-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	line-height: 0;
+}
+
+.fixed-quick-link a:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.fixed-quick-link a:hover {
+/* 	zoom: 1; */
+	filter: alpha(opacity=80);
+	opacity: .8;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+}
+
+.fixed-quick-link img {
+	width: 32px;
+	height: auto;
+	-webkit-box-shadow: none !important;
+	        box-shadow: none !important;
+}
+
+/* Block editor - seperator */
+.language-tag {
+	position: relative;
+	margin: 60px 0;
+}
+.language-tag:before {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+  top: calc( 50% - 3px);
+	height: 3px;
+	background-color: #6b9bd2;
+}
+.language-tag code {
+	font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: white;
+	color: #6b9bd2;
+	padding: 6px 10px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px !important;
+	position: relative;
+}
+.language-tag code .dashicons {
+	font-size: 24px;
+	height: auto;
+	width: auto;
+}
