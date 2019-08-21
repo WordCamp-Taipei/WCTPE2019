@@ -102,10 +102,11 @@
 	display: inline-block;
 	padding: 0;
 }
-/* .widget_text ul.social-nav li a:hover .dashicons:before {
+.widget_text ul.social-nav li a:hover .dashicons:before, .widget_text ul.social-nav li a:hover .fa:before {
 	background-color: #0068B6;
+  /* background-color: #FFE792; */
 	color: white;
-} */
+}
 
 /* footer - subscribe */
 .site-footer .widget-column.footer-widget-2 .widget-title {
@@ -133,6 +134,7 @@
 	height: 50px;
 	position: relative;
 	left: -4px;
+  top: 0;
 	border: 0;
 }
 .site-footer .widget-column.footer-widget-2 .widget_blog_subscription button[type="submit"]:hover {

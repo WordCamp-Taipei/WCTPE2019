@@ -39,7 +39,7 @@ ul.wp-block-latest-posts li a {
   transition: all .25s ease-in-out;
   letter-spacing: 1px !important;
 }
-ul.wp-block-latest-posts li a:hover {
+ul.wp-block-latest-posts li a:hover, ul.wp-block-latest-posts li a:focus {
   background: none;
   background-color: #FDD000;
   outline: 3px solid #FFF4CC;
