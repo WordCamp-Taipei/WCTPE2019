@@ -1722,12 +1722,6 @@ a.wp-block-button__link:active {
       -ms-flex: 1 0 50%;
           flex: 1 0 50%;
 }
-/* @media screen and (max-width: 450px) {
-  .wctpe-timeline .wctpe-timeline-date {
-    flex-basis: 30%;
-    font-size: 24px;
-  }
-} */
 
 .wctpe-timeline .wctpe-timeline-date {
   color: #0067b6;
@@ -1746,6 +1740,7 @@ a.wp-block-button__link:active {
   position: relative;
   list-style: none;
   padding-bottom: 40px;
+  margin-left: 20px;
 }
 
 .wctpe-timeline .wctpe-timeline-agenda-item {
@@ -1758,11 +1753,11 @@ a.wp-block-button__link:active {
   margin-bottom: 10px;
   line-height: 120%;
 }
-.wctpe-timeline .wctpe-timeline-agenda-item:first-child:after {
+.wctpe-timeline .wctpe-timeline-date:after {
   content: '';
   display: inline-block;
   position: absolute;
-  left: -17px;
+  right: -20px;
   top: 15px;
   /* transform: translateY(-50%); */
   width: 17px;
@@ -1772,10 +1767,10 @@ a.wp-block-button__link:active {
   background-color: #4B4848;
   z-index: 2;
 }
-.wctpe-timeline .wctpe-timeline-item:first-child .wctpe-timeline-agenda-item:first-child:after {
+.wctpe-timeline .wctpe-timeline-item:first-child .wctpe-timeline-date:first-child:after {
   background-color: white;
 }
-.wctpe-timeline .wctpe-timeline-item:last-child .wctpe-timeline-agenda-item:first-child:after {
+.wctpe-timeline .wctpe-timeline-item:last-child .wctpe-timeline-date:first-child:after {
   border-radius: 0;
 }
 .wctpe-timeline .wctpe-timeline-agenda-items:before {
@@ -1794,4 +1789,50 @@ a.wp-block-button__link:active {
 .wctpe-timeline .wctpe-timeline-item:last-child .wctpe-timeline-agenda-items:before {
   top: 0;
   height: 15px;
+}
+
+@media screen and (max-width: 450px) {
+  .wctpe-timeline .wctpe-timeline-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wctpe-timeline .wctpe-timeline-date {
+    text-align: left;
+    font-size: 28px;
+    padding-right: 0;
+    padding-left: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+  }
+  .wctpe-timeline .wctpe-timeline-date:after {
+    left: -20px;
+  }
+  .wctpe-timeline .wctpe-timeline-date:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -13px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #4B4848;
+  }
+  .wctpe-timeline .wctpe-timeline-item:last-child .wctpe-timeline-date:before {
+    bottom: inherit;
+    height: 15px;
+  }
+  .wctpe-timeline .wctpe-timeline-item:last-child .wctpe-timeline-agenda-items:before {
+    height: 0;
+  }
+  .wctpe-timeline .wctpe-timeline-item:first-child .wctpe-timeline-agenda-items:before {
+    top: 0;
+  }
+  .wctpe-timeline .wctpe-timeline-item:first-child .wctpe-timeline-date:before {
+    top: 15px;
+  }
+  .wctpe-timeline .wctpe-timeline-agenda-items:before {
+    left: -13px;
+  }
 }
