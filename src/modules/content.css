@@ -29,6 +29,12 @@
   border-bottom: 5px dotted #FDD000;
 }
 
+/* 首頁about 區塊移除 dotted line*/
+.twentyseventeen-front-page article#panel1, .twentyseventeen-front-page article#panel2 {
+	border-bottom: 0;
+	border-top:0;
+}
+
 /*網站整體內容區塊寬度*/
 @media screen and (min-width: 1024px) {
 	.twentyseventeen-panel:nth-child(2) .panel-content .wrap, .twentyseventeen-panel:nth-child(3) .panel-content .wrap {

@@ -381,8 +381,8 @@ body:not(.twentyseventeen-front-page):not(.page-slug-sponsors) .site-footer .wcb
 	float: none !important;
 /* 	width: auto !important; */
 /* 	margin: 0 calc(50% - 52vw); */
-	width: 100vw;
-	margin-left: calc(-50vw + 50%);
+	width: 100%;
+/*	margin-left: calc(-50vw + 50%);*/
 	margin-bottom: 0;
 	/* background-color: #0068b6; */
 	background-color: #7bc16d;
