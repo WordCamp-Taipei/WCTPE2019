@@ -555,6 +555,7 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 	}
 	
 	.wp-block-column.row-right .has-text-color {
+		padding-top: 24px;
 		font-size: 18px;
 	}
 }
