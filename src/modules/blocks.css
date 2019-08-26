@@ -569,7 +569,7 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 
 /* Block editor - blockquote */
 .wp-block-pullquote:not(.is-style-solid-color) {
-  background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h174.png');
+  background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h500.png');
   background-color: #dffdff;
   /* border: 5px dotted #FDD000; */
   border: 0;
@@ -599,4 +599,14 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 .wp-block-pullquote:not(.is-style-solid-color).row-full-width blockquote {
   max-width: 680px;
   margin: 0 auto;
+}
+
+/* Block editor - pullquote */
+.wp-block-pullquote.is-style-solid-color p {
+  color: #4B4848;
+  font-style: normal;
+}
+.wp-block-pullquote.is-style-solid-color cite {
+  color: #4B4848;
+
 }
