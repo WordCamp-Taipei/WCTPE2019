@@ -1510,22 +1510,22 @@ li.wordcamp-post-list__post.wordcamp-clearfix:last-child {
 	.slug-yuan-jhen-info img.wordcamp-image__featured-image.wp-post-image {
 		max-width: 200px;
 	}
-	
+
 	.wordcamp-image__featured-image-container.wordcamp-sponsors__featured-image.wordcamp-sponsors__logo.align-none {
 		text-align: center;
 		padding: 20px 0 30px;
 	}
-	
+
 	.wordcamp-image__featured-image-container.wordcamp-sponsors__featured-image.wordcamp-sponsors__logo.align-none a {
 		background: none;
 	}
-	
+
 	ul.wordcamp-block.wordcamp-post-list.has-layout-list.wordcamp-sponsors {
 		border: 1px solid #bbcce9;
 		margin-bottom: 20px;
 		padding: 20px 35px;
 	}
-	
+
 	li.wordcamp-post-list__post.wordcamp-clearfix {
 		border-bottom: 1px solid #bbcce9;
 		margin-bottom: 20px;
@@ -1567,8 +1567,8 @@ article#panel2 .wp-block-image figure.alignright {
 }
 
 article#panel2	.wp-block-column.row-right {
-    
-    
+
+
     background-repeat: no-repeat;
     -ms-flex-preferred-size: 90%;
         flex-basis: 90%;
@@ -1584,7 +1584,7 @@ article#panel2	.wp-block-column.row-right {
 	padding-top: 0px;
 	margin: 0;
 	font-size: 16px;
-	
+
     background-color: #dffdff;
     border: 8px solid #dffdff;
     outline: 2px solid #adeef3;
@@ -1605,19 +1605,19 @@ article#panel2 	.row-full-width {
 
 
 @media (min-width: 600px) {
-	
+
 	article#panel2 .wp-block-columns.has-2-columns.row-extend-width.row-full-width.about_bg {
 	background-color: #dffdff;
 background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h174.png);
     margin-left: calc(-50vw + 50%);
 }
-	
+
 	article#panel2 {
 	background-color: #dffdff;
-		
-		
+
+
 }
-	
+
 	article#panel2 .wp-block-column.row-bg-wapu {
 	background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h174.png');
 	-ms-flex-preferred-size: calc(30%);
@@ -1629,7 +1629,7 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 	text-align: right;
 }
 
-	
+
 	article#panel2	.wp-block-column.row-right {
 		min-height:171px;
 		background-color:transparent;
@@ -1644,7 +1644,7 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 	margin: 0;
 	text-align: center;
 }
-	
+
 	.wp-block-column.row-right .has-text-color {
 		font-size: 16px;
 		    background-color:transparent;
@@ -1657,7 +1657,7 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 }
 
 @media (min-width: 1024px) {
-	
+
 
 	article#panel2 .wp-block-column.row-bg-wapu {
 		-ms-flex-preferred-size: calc(45%);
@@ -1667,7 +1667,7 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 		        flex-grow: 0;
 		margin: 0;
 	}
-	
+
 	article#panel2	.wp-block-column.row-right {
 		-ms-flex-preferred-size: calc(55%);
 		    flex-basis: calc(55%);
@@ -1679,7 +1679,7 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 		margin: 0;
 		text-align: center;
 	}
-	
+
 	.wp-block-column.row-right .has-text-color {
 		padding-top: 24px;
 		font-size: 18px;
@@ -1690,8 +1690,42 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 	article#panel2	.wp-block-column.row-right {
 		padding-top: 15px;
 	}
-	
+
 }
+
+/* Block editor - blockquote */
+.wp-block-pullquote:not(.is-style-solid-color) {
+  background-image: url('https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h174.png');
+  background-color: #dffdff;
+  /* border: 5px dotted #FDD000; */
+  border: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 20px;
+  margin: 40px 0;
+}
+.wp-block-pullquote:not(.is-style-solid-color) blockquote {
+  background-color: #dffdff;
+  border: 3px solid #BAE8F3;
+  /* background-color: #FFF4CC;
+  border: 3px solid #FFE792; */
+  border-radius: 10px;
+  padding: 20px;
+}
+.wp-block-pullquote:not(.is-style-solid-color) blockquote p {
+  color: #4B4848;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+.wp-block-pullquote:not(.is-style-solid-color) blockquote cite {
+  color: #4B4848;
+  text-transform: none;
+}
+.wp-block-pullquote:not(.is-style-solid-color).row-full-width blockquote {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
 	.page .site-main {
 		padding: 0 20px;
@@ -1862,6 +1896,22 @@ button:not([name="jetpack_subscriptions_widget"]):hover, input[type="button"]:ho
   -webkit-transform: scale(1.04);
       -ms-transform: scale(1.04);
           transform: scale(1.04);
+}
+
+.search-form .search-submit {
+  margin: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 10px 0 0;
+}
+.search-form .search-field {
+  border: 2px solid #FFE792;
+  border-radius: 10px;
+  background-color: #FFF4CC;
+}
+.search-form .search-field:focus {
+  border: 2px solid #FDD000;
 }
 
 .wcorg-organizers {

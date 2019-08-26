@@ -43,3 +43,19 @@ button:not([name="jetpack_subscriptions_widget"]):hover, input[type="button"]:ho
   opacity: .9;
   transform: scale(1.04);
 }
+
+.search-form .search-submit {
+  margin: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 10px 0 0;
+}
+.search-form .search-field {
+  border: 2px solid #FFE792;
+  border-radius: 10px;
+  background-color: #FFF4CC;
+}
+.search-form .search-field:focus {
+  border: 2px solid #FDD000;
+}
