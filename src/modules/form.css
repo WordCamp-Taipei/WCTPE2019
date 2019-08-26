@@ -1,6 +1,7 @@
 input[type="text"],
 input[type="email"],
 input[type="url"],
+input[type="tel"],
 textarea {
   border: 2px solid #FFE792;
   border-radius: 10px;
@@ -9,6 +10,7 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
+input[type="tel"]:focus,
 textarea:focus {
   border: 2px solid #FDD000;
 }
@@ -25,14 +27,13 @@ button, input[type="button"], input[type="submit"] {
 	font-size: 14px;
 	line-height: 1;
 	margin-top: 20px;
-	padding: .75em 2em;
+	padding: 1em 2em;
 	text-decoration: none;
 	color: #ffffff;
 	border-radius: 10px 10px 0 10px;
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
 	background: linear-gradient(145DEG,#7BC16D,#20AB41);
 	transition: all .2s ease-in-out;
-
 }
 button:hover, input[type="button"]:hover, input[type="submit"]:hover {
   /* background-color: #7BC16D; */

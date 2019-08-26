@@ -1,10 +1,16 @@
 .tix-js .tix-info {
-  margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #20AB41;
 }
+.tix-js .tix-notice {
+  padding: 20px;
+  border: 1px solid #FDD000;
+}
 .tix-js .tix-error {
   padding: 20px;
+}
+.tix_tickets_table {
+  margin-top: 20px;
 }
 .tix_tickets_table .tix-column-description {
 	text-align: left;
@@ -14,6 +20,9 @@
 .tix_tickets_table .tix-column-quantity {
   width: 15%;
   text-align: center;
+}
+.tix_tickets_table .tix-column-quantity select {
+  width: 100%;
 }
 .tix_tickets_table .tix-row-coupon td {
   padding: 30px 20px;

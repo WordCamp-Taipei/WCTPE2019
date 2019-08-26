@@ -1034,12 +1034,18 @@ header#masthead.site-header {
 }
 
 .tix-js .tix-info {
-  margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #20AB41;
 }
+.tix-js .tix-notice {
+  padding: 20px;
+  border: 1px solid #FDD000;
+}
 .tix-js .tix-error {
   padding: 20px;
+}
+.tix_tickets_table {
+  margin-top: 20px;
 }
 .tix_tickets_table .tix-column-description {
 	text-align: left;
@@ -1049,6 +1055,9 @@ header#masthead.site-header {
 .tix_tickets_table .tix-column-quantity {
   width: 15%;
   text-align: center;
+}
+.tix_tickets_table .tix-column-quantity select {
+  width: 100%;
 }
 .tix_tickets_table .tix-row-coupon td {
   padding: 30px 20px;
@@ -1802,6 +1811,7 @@ a.wp-block-button__link:active {
 input[type="text"],
 input[type="email"],
 input[type="url"],
+input[type="tel"],
 textarea {
   border: 2px solid #FFE792;
   border-radius: 10px;
@@ -1810,6 +1820,7 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
+input[type="tel"]:focus,
 textarea:focus {
   border: 2px solid #FDD000;
 }
@@ -1826,7 +1837,7 @@ button, input[type="button"], input[type="submit"] {
 	font-size: 14px;
 	line-height: 1;
 	margin-top: 20px;
-	padding: .75em 2em;
+	padding: 1em 2em;
 	text-decoration: none;
 	color: #ffffff;
 	border-radius: 10px 10px 0 10px;
@@ -1838,7 +1849,6 @@ button, input[type="button"], input[type="submit"] {
 	-webkit-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
-
 }
 button:hover, input[type="button"]:hover, input[type="submit"]:hover {
   /* background-color: #7BC16D; */
