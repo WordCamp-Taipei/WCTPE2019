@@ -1809,7 +1809,7 @@ a.wp-block-button__link:active {
 }
 
 input[type="text"],
-input[type="email"],
+input[type="email"]:not(#subscribe-field-blog_subscription-4),
 input[type="url"],
 input[type="tel"],
 textarea {
@@ -1818,7 +1818,7 @@ textarea {
   background-color: #FFF4CC;
 }
 input[type="text"]:focus,
-input[type="email"]:focus,
+input[type="email"]:not(#subscribe-field-blog_subscription-4):focus,
 input[type="url"]:focus,
 input[type="tel"]:focus,
 textarea:focus {
@@ -1829,7 +1829,7 @@ select {
   border-radius: 10px;
   background-color: #FFF4CC;
 }
-button, input[type="button"], input[type="submit"] {
+button:not([name="jetpack_subscriptions_widget"]), input[type="button"], input[type="submit"] {
 	background-color: #1FAC43;
 	color: #fff;
 	border-radius: 5px;
@@ -1850,7 +1850,7 @@ button, input[type="button"], input[type="submit"] {
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
-button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+button:not([name="jetpack_subscriptions_widget"]):hover, input[type="button"]:hover, input[type="submit"]:hover {
   /* background-color: #7BC16D; */
   background: -webkit-gradient(linear,left top, left bottom,from(145DEG),color-stop(#7BC16D),to(#20AB41));
   background: -o-linear-gradient(145DEG,#7BC16D,#20AB41);
