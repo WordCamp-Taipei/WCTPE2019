@@ -1709,7 +1709,6 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 }
 .home_info_title {
   font-size: 45px;
-  letter-spacing: 30px;
   color: #0068b6;
 }
 
@@ -1808,6 +1807,7 @@ background-image: url(https://2019.taipei.wordcamp.org/files/2019/08/about_bg_h1
 a.wp-block-button__link:active {
 	background-color: #7BC16D;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -1925,6 +1925,9 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 	top: 3.8em;
 	left: 20px;
 	z-index: 0;
+  border-radius: 10px 10px 0 10px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+          box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
 }
 
 @media screen and (min-width:30em) {
