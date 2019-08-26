@@ -1,0 +1,61 @@
+.tix-js .tix-info {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #20AB41;
+}
+.tix-js .tix-error {
+  padding: 20px;
+}
+.tix_tickets_table .tix-column-description {
+	text-align: left;
+}
+.tix_tickets_table .tix-column-price,
+.tix_tickets_table .tix-column-remaining,
+.tix_tickets_table .tix-column-quantity {
+  width: 15%;
+  text-align: center;
+}
+.tix_tickets_table .tix-row-coupon td {
+  padding: 30px 20px;
+}
+.tix_tickets_table .tix-row-coupon input[name="tix_coupon_submit"] {
+  margin-top: 20px;
+}
+.tix_tickets_table .tix-row-coupon a, .tix-payment-method .tix-payment-tab.tix-tab-selected, #tix .tix-submit .tix-checkout-button {
+  background-color: #1FAC43;
+	color: #fff;
+	border-radius: 5px;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 1;
+	margin-top: 20px;
+	padding: .75em 2em;
+	text-decoration: none;
+	color: #ffffff;
+	border-radius: 10px 10px 0 10px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+	background: linear-gradient(145DEG,#7BC16D,#20AB41);
+	transition: all .2s ease-in-out;
+  border: 0;
+}
+.tix_tickets_table .tix-row-coupon a:hover, .tix-payment-method .tix-payment-tab.tix-tab-selected:hover, #tix .tix-submit .tix-checkout-button:hover {
+  /* background-color: #7BC16D; */
+  background: linear-gradient(145DEG,#7BC16D,#20AB41);
+  color: white;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.3);
+  opacity: .9;
+  transform: scale(1.04);
+}
+.tix_tickets_table .tix-left {
+  text-align: left;
+}
+.tix_tickets_table .tix-right {
+  text-align: left;
+}
+.tix_tickets_table .tix-right br {
+  display: none;
+}
+.tix_tickets_table.tix-attendee-form .tix-right input:not([type="checkbox"]):not([type="radio"]),
+.tix_tickets_table.tix-attendee-form .tix-right select {
+  width: 100%;
+}
