@@ -479,7 +479,7 @@ article#panel2	.wp-block-column.row-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 100px;
+    padding-right: 150px;
   }
 
 
@@ -497,7 +497,7 @@ article#panel2	.wp-block-column.row-right {
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
-    left: -100px;
+    left: -150px;
     height: 100%;
     width: 100%;
     content: "";
