@@ -55,9 +55,9 @@
 9. Appearance > Customize > Theme options - Page layout: 1 column
 10. Appearance > Customize > Theme options - 設定首頁區塊
 11. Appearance > Fonts >
-  1. Google Web Fonts: `@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Roboto&display=swap');`
-  2. Font Awesome: `https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css`
-  3. Check "Enqueue Dashicons"
+    * Google Web Fonts: `@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Roboto&display=swap');`
+    * Font Awesome: `https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css`
+    * Check "Enqueue Dashicons"
 
 ## 開工囉！
 
