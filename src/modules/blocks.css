@@ -565,3 +565,10 @@ article#panel2	.wp-block-column.row-right {
   color: #4B4848;
 
 }
+
+/* Block editor - column vertical align */
+.wp-block-column.column-vertical-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

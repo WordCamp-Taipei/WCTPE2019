@@ -1706,6 +1706,20 @@ article#panel2	.wp-block-column.row-right {
 
 }
 
+/* Block editor - column vertical align */
+.wp-block-column.column-vertical-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
 	.page .site-main {
 		padding: 0 20px;
