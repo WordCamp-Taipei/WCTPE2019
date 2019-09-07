@@ -1601,7 +1601,7 @@ article#panel2	.wp-block-column.row-right {
 
 	article#panel2 .wp-block-column.row-bg-wapu {
   	text-align: right;
-    z-index: 99;
+    z-index: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
