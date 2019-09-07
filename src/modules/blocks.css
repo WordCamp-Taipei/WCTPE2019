@@ -406,6 +406,31 @@ li.wordcamp-post-list__post.wordcamp-clearfix:last-child {
 	}
 }
 
+/* sponsors頁面 隱藏logo */
+.page-slug-sponsors .sponsors_main_page_logo {
+	display: none;
+}
+
+/* sponsors頁面 贊助商大標修改 */
+
+.page-slug-sponsors  .wordcamp-sponsors__content h2 {
+	border-left: 5px solid #fdd000;
+	color: #0068b6;
+	padding: 0 0 0 10px;
+	font-size: 22px;
+}
+
+.page-slug-sponsors  .wordcamp-sponsors__content h2:before {
+	display: none;
+}
+
+.page-slug-sponsors  .wordcamp-sponsors__content h3 {
+	border-left: 0 solid #fdd000;
+	color: #0068b6;
+	padding: 0;
+	font-size: 20px;
+}
+
 /* Home_about section*/
 #panel2 .wrap {
 	padding: 0;

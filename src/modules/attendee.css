@@ -1,0 +1,98 @@
+/*attendees*/
+#tix-attendees {
+	margin-top: 1em !important;
+	border: 1px solid #bbcce9;
+	padding: 20px 20px 0;
+}
+
+.tix-attendee-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#tix-attendees .tix-columns-3 li {
+	width: 100%;
+}
+
+@media (min-width:37.5em) {
+	#tix-attendees .tix-columns-3 li {
+		width: 50%;
+	}
+	
+	#tix-attendees .tix-columns-3 li:nth-child(odd) {
+		clear: left;
+	}
+}
+
+@media (min-width:62em) {
+	#tix-attendees .tix-columns-3 li {
+		width: 33.33333%;
+	}
+	
+	#tix-attendees .tix-columns-3 li:nth-child(odd) {
+		clear: none;
+	}
+	
+	#tix-attendees .tix-columns-3 li:nth-child(3n+1) {
+		clear: left;
+	}
+}
+
+#tix-attendees:after,#tix-attendees:before {
+	content: "";
+	display: table;
+}
+
+#tix-attendees:after {
+	clear: both;
+}
+
+#tix-attendees li {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 1.25rem;
+	height: auto;
+	min-height: 3rem;
+	padding-left: 4rem;
+	padding-right: .5rem;
+	font-size: .8em;
+	line-height: 1.25em;
+	text-align: left;
+}
+
+#tix-attendees .avatar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 3rem;
+	height: 3rem;
+	background-color: #fff;
+	transition: all .15s ease;
+	z-index: 0;
+	border-radius: 10px 10px 0 10px;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+
+#tix-attendees .tix-field {
+	font-size: 12px;
+	width: fit-content;
+	line-height: 1.2em;
+	margin: 0;
+	margin-right: .5rem;
+	vertical-align: middle;
+}
+
+#tix-attendees .tix-attendee-name {
+	display: block;
+	padding-right: 0;
+	margin-right: 0;
+	margin-bottom: .125rem;
+	color: #6b9bd2;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.25em;
+	background: none;
+}

@@ -513,6 +513,19 @@ body:not(.twentyseventeen-front-page):not(.page-slug-sponsors) .site-footer .wcb
       -ms-flex: 0 1 20%;
           flex: 0 1 20%;
 }
+
+.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+7) .sponsor-logo {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 33%;
+	        flex: 0 1 33%;
+}
+
+.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+8) .sponsor-logo {
+	-webkit-box-flex: 0;
+	    -ms-flex: 0 1 25%;
+	        flex: 0 1 25%;
+}
+
 @media screen and (max-width: 450px) {
 	.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+3) .sponsor-logo,
 	.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+4) .sponsor-logo {
@@ -755,6 +768,10 @@ header#masthead.site-header {
 	text-transform: none;
 	background-position: center;
 }
+.site-title>a:hover {
+	opacity: 1;
+}
+
 		.site-header .site-branding{top:-20px;}
 
 
@@ -1114,6 +1131,108 @@ header#masthead.site-header {
   width: 100%;
 }
 
+/*attendees*/
+#tix-attendees {
+	margin-top: 1em !important;
+	border: 1px solid #bbcce9;
+	padding: 20px 20px 0;
+}
+
+.tix-attendee-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#tix-attendees .tix-columns-3 li {
+	width: 100%;
+}
+
+@media (min-width:37.5em) {
+	#tix-attendees .tix-columns-3 li {
+		width: 50%;
+	}
+	
+	#tix-attendees .tix-columns-3 li:nth-child(odd) {
+		clear: left;
+	}
+}
+
+@media (min-width:62em) {
+	#tix-attendees .tix-columns-3 li {
+		width: 33.33333%;
+	}
+	
+	#tix-attendees .tix-columns-3 li:nth-child(odd) {
+		clear: none;
+	}
+	
+	#tix-attendees .tix-columns-3 li:nth-child(3n+1) {
+		clear: left;
+	}
+}
+
+#tix-attendees:after,#tix-attendees:before {
+	content: "";
+	display: table;
+}
+
+#tix-attendees:after {
+	clear: both;
+}
+
+#tix-attendees li {
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 1.25rem;
+	height: auto;
+	min-height: 3rem;
+	padding-left: 4rem;
+	padding-right: .5rem;
+	font-size: .8em;
+	line-height: 1.25em;
+	text-align: left;
+}
+
+#tix-attendees .avatar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 3rem;
+	height: 3rem;
+	background-color: #fff;
+	-webkit-transition: all .15s ease;
+	-o-transition: all .15s ease;
+	transition: all .15s ease;
+	z-index: 0;
+	border-radius: 10px 10px 0 10px;
+	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+
+#tix-attendees .tix-field {
+	font-size: 12px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	line-height: 1.2em;
+	margin: 0;
+	margin-right: .5rem;
+	vertical-align: middle;
+}
+
+#tix-attendees .tix-attendee-name {
+	display: block;
+	padding-right: 0;
+	margin-right: 0;
+	margin-bottom: .125rem;
+	color: #6b9bd2;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.25em;
+	background: none;
+}
 /* 首頁最新消息 */
 ul.wp-block-latest-posts {
   margin: 0;
@@ -1530,6 +1649,31 @@ li.wordcamp-post-list__post.wordcamp-clearfix:last-child {
 		border-bottom: 1px solid #bbcce9;
 		margin-bottom: 20px;
 	}
+}
+
+/* sponsors頁面 隱藏logo */
+.page-slug-sponsors .sponsors_main_page_logo {
+	display: none;
+}
+
+/* sponsors頁面 贊助商大標修改 */
+
+.page-slug-sponsors  .wordcamp-sponsors__content h2 {
+	border-left: 5px solid #fdd000;
+	color: #0068b6;
+	padding: 0 0 0 10px;
+	font-size: 22px;
+}
+
+.page-slug-sponsors  .wordcamp-sponsors__content h2:before {
+	display: none;
+}
+
+.page-slug-sponsors  .wordcamp-sponsors__content h3 {
+	border-left: 0 solid #fdd000;
+	color: #0068b6;
+	padding: 0;
+	font-size: 20px;
 }
 
 /* Home_about section*/
@@ -1950,6 +2094,10 @@ button:not([name="jetpack_subscriptions_widget"]):hover, input[type="button"]:ho
 	z-index: 0;
 	color: #6b9bd2;
 	font-size: 1.5rem;
+}
+
+div.wcorg-organizers div.wcorg-organizer h2:before {
+	display: none;
 }
 
 .wcorg-organizers-lead .wcorg-organizer {

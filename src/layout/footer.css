@@ -318,6 +318,15 @@ body:not(.twentyseventeen-front-page):not(.page-slug-sponsors) .site-footer .wcb
 .site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+4) .sponsor-logo {
   flex: 0 1 20%;
 }
+
+.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+7) .sponsor-logo {
+	flex: 0 1 33%;
+}
+
+.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+8) .sponsor-logo {
+	flex: 0 1 25%;
+}
+
 @media screen and (max-width: 450px) {
 	.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+3) .sponsor-logo,
 	.site-footer .wcb_widget_sponsors .sponsor-level:nth-of-type(n+4) .sponsor-logo {

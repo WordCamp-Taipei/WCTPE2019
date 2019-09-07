@@ -131,6 +131,10 @@ header#masthead.site-header {
 	text-transform: none;
 	background-position: center;
 }
+.site-title>a:hover {
+	opacity: 1;
+}
+
 		.site-header .site-branding{top:-20px;}
 
 
