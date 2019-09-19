@@ -19,10 +19,8 @@ select {
   border-radius: 10px;
   background-color: #FFF4CC;
 }
-button:not([name="jetpack_subscriptions_widget"]), input[type="button"], input[type="submit"] {
+button:not([name="jetpack_subscriptions_widget"]):not(.menu-toggle):not(.dropdown-toggle), input[type="button"], input[type="submit"] {
 	background-color: #1FAC43;
-	color: #fff;
-	border-radius: 5px;
 	font-weight: 800;
 	font-size: 14px;
 	line-height: 1;
@@ -35,7 +33,8 @@ button:not([name="jetpack_subscriptions_widget"]), input[type="button"], input[t
 	background: linear-gradient(145DEG,#7BC16D,#20AB41);
 	transition: all .2s ease-in-out;
 }
-button:not([name="jetpack_subscriptions_widget"]):hover, input[type="button"]:hover, input[type="submit"]:hover {
+button.dropdown-toggle {color:#ffffff;}
+button:not([name="jetpack_subscriptions_widget"]):not(.menu-toggle):not(.dropdown-toggle):hover, input[type="button"]:hover, input[type="submit"]:hover {
   /* background-color: #7BC16D; */
   background: linear-gradient(145DEG,#7BC16D,#20AB41);
   color: white;
@@ -43,9 +42,9 @@ button:not([name="jetpack_subscriptions_widget"]):hover, input[type="button"]:ho
   opacity: .9;
   transform: scale(1.04);
 }
-
+button.dropdown-toggle:hover {color:#ffffff;}
 .search-form .search-submit {
-  margin: 0;
+  margin: 0 !important;
   right: 0;
   top: 0;
   bottom: 0;

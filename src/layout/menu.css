@@ -27,6 +27,7 @@
 
 .navigation-top a {
 	color: #fefefe;
+	padding-left:15px;
 }
 
 /* .navigation-top li:not(:first-child) a:before {
@@ -82,7 +83,7 @@
 }
 
 .navigation-top .menu>.current-menu-item>a,.navigation-top .menu>.current_page_item>a {
-	color: #656464;
+	color: #333333;
 	background-color: #bbcce9;
 /*background-image: url('https://2018.ogijima.wordcamp.org/files/2018/04/nav-current.png');
 	background-repeat: no-repeat;

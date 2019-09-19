@@ -42,3 +42,12 @@
 .entry-header .entry-title {
   margin-bottom: 20px;
 }
+/*page-numbers*/
+.page-numbers.current .screen-reader-text {
+	position: absolute !important;
+	display: none;
+}
+
+.page-numbers {
+	display: inline-block;
+}

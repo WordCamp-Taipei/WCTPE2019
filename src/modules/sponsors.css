@@ -1,0 +1,16 @@
+/* page-slug-sponsors*/
+.sponsors_hide_continue_reading {
+	display: none;
+}
+
+.page-slug-sponsors .sponsors_hide_continue_reading {
+	display: block;
+}
+
+.sponsors_hide_content {
+	display: block;
+}
+
+.page-slug-sponsors .sponsors_hide_content {
+	display: none;
+}

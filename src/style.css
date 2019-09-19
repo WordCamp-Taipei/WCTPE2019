@@ -104,3 +104,7 @@ h3:not(.sd-title) {
 h4:not(.sponsor-level-title), h5, h6, p {
 	color: #717071;
 }
+
+blockquote.wp-block-quote.is-style-info p {
+	color: #4b4848;
+}
