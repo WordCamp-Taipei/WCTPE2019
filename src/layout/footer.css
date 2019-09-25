@@ -433,3 +433,42 @@ body:not(.twentyseventeen-front-page):not(.page-slug-sponsors) .site-footer .wcb
 		width: 50px;
 	}
 }
+
+/* get your tickets*/
+
+.site-footer .widget-column.footer-widget-2>section:last-child{
+	width:0;
+	padding: 0;
+}
+
+.fixed_get_tickets{
+	border: none;
+    bottom: 1em;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 1em;
+    width: auto;
+    z-index: 50001;
+}
+
+.fixed_get_tickets img{
+	width: 220px;
+}
+
+.widget .fixed_get_tickets a img,.widget .fixed_get_tickets a, .widget .fixed_get_tickets a:hover{
+	border: 0;
+	box-shadow: none;
+    transition: none;
+}
+
+@media screen and (max-width: 700px) {
+	.fixed_get_tickets{
+		bottom: 1em;
+		right: 0.5em;
+		z-index: 50001;
+	}
+	.fixed_get_tickets img{
+		width: 180px;
+	}
+}

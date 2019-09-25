@@ -101,7 +101,7 @@ h3:not(.sd-title) {
 	font-size: 22px;
 }
 
-h4:not(.sponsor-level-title), h5, h6, p {
+h4:not(.sponsor-level-title), h5, h6, p, ul, ol, li {
 	color: #717071;
 }
 
