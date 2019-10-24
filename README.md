@@ -1,4 +1,4 @@
-# WordCamp Taipei 2019 主要活動網站
+# WordCamp Taipei 2019 主要官方網站
 
 ## 本地端主機測試安裝
 
